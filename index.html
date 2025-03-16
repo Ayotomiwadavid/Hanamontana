@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">
+          <span>Navbar</span>
+        </a>
+        <button
+          class="menu-toggle"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          &#9776;
+        </button>
+        <div class="menu" id="navbar-default">
+          <ul>
+            <li><a href="#general-info" class="active">Gneral Infomation</a></li>
+            <li><a href="#">Plot</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Review</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--HERO SECTION-->
+    <div class="hero">
+      <div class="slider" id="slider">
+        <div
+          class="slide"
+          style="background-image: url('./assets/images/Hanna_brand_show.JPG')"
+        ></div>
+        <div
+          class="slide"
+          style="background-image: url('./assets/images/IMG_4894.JPG')"
+        ></div>
+        <div
+          class="slide"
+          style="background-image: url('./assets/images/slide_show1.JPG')"
+        ></div>
+      </div>
+      <div class="buttons">
+        <button class="btn" onclick="prevSlide()">&#10094;</button>
+        <button class="btn" onclick="nextSlide()">&#10095;</button>
+      </div>
+    </div>
+
+    <!-- CTA SECTION -->
+
+    <section class="cta-section" id="general-info">
+
+      <div class="general-heading-container">
+        <h1>Gneral Information</h1>
+      </div>
+
+      <div class="cta-container">
+        <img src="./assets/images/montana.JPG" alt="dashboard image" />
+        <div class="cta-content">
+          <h2>Let's create more tools and ideas that bring us together.</h2>
+          <p>
+            Miley Stewart, the protagonist of the series, is a seemingly
+            ordinary girl who transforms herself in colorful clothing and blonde
+            hair, performing as the famous Hannah Montana in secret. Miley
+            attempts to manage her school life, friendships, and music career
+            without disclosing her secret identity with the support of her
+            father and manager, Robby Ray Stewart, as well as her best friends,
+            Lilly Truscott and Oliver Oken. But as the series goes on, the
+            challenge of hiding her double life becomes increasingly difficult.
+          </p>
+          <a href="#" class="cta-button">
+            Get started
+            <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Grid section -->
+    <section class="business-features-section">
+      <div class="features-container">
+        <div class="features-header">
+          <h2 class="features-title">Designed for business teams like yours</h2>
+          <p class="features-subtitle">
+            Here at Flowbite we focus on markets where technology, innovation,
+            and capital can unlock long-term value and drive economic growth.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div
+            class="feature-item"
+            style="
+              background-image: url('./assets/images/hanna_professional.JPG');
+            "
+          ></div>
+          <div
+            class="feature-item"
+            style="background-image: url('./assets/images/cold_face.JPG')"
+          ></div>
+          <div
+            class="feature-item"
+            style="background-image: url('./assets/images/Hanna_family.WEBP')"
+          ></div>
+          <div class="feature-item-contents">
+            <h2>Let's create more tools and ideas that bring us together.</h2>
+            <p>
+              Flowbite helps you connect with friends and communities of people
+              who share your interests. Connecting with your friends and family
+              as well as discovering new ones is easy with features like Groups.
+            </p>
+            <a href="#" class="cta-button">
+              Get started
+              <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Big Image and description section -->
+
+    <section class="bigImage-section">
+      <div class="bigImage-content">
+        <h1 class="bigImage-title">Payments tool for software companies</h1>
+        <p class="bigImage-text">
+          From checkout to global sales tax compliance, companies around the
+          world use Flowbite to simplify their payment stack.
+        </p>
+      </div>
+      <div class="bigImage-image">
+        <img src="./assets//images/Hannah_on_stage.jpg" alt="mockup" />
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- Gallery -->
+
+    <section class="gallery-section">
+      <h1 class="gallery-heading">Gallery</h1>
+    </section>
+
+    <div class="gallery">
+      <img src="./assets/images/cold_face.JPG" alt="" />
+      <img src="./assets/images/men_standing.JPG" alt="" />
+      <img src="./assets/images/IMG_4894.JPG" alt="" />
+      <img src="./assets/images/dancing_guy.WEBP" alt="" />
+      <img src="./assets/images/slide_show1.JPG" alt="" />
+    </div>
+
+    <!-- Review Section -->
+
+    <section class="review-section">
+      <div class="testimonial-header-container">
+        <h1>We invest in the world’s potential</h1>
+        <p>
+          Here at Flowbite we focus on markets where technology, innovation, and
+          capital can unlock long-term value and drive economic growth.
+        </p>
+      </div>
+
+      <div class="testimonial-container">
+        <div class="testimonial active">
+          <blockquote>
+            "Miley Stewart, the protagonist of the series, is a seemingly
+            ordinary girl who transforms herself in colorful clothing and blonde
+            hair, performing as the famous Hannah Montana in secret. Miley
+            attempts to manage her school life, friendships, and music career
+            without disclosing her secret identity with the support of her
+            father and manager, Robby Ray Stewart, as well as her best friends,
+            Lilly Truscott and Oliver Oken. But as the series goes on, the
+            challenge of hiding her double life becomes increasingly difficult."
+          </blockquote>
+          <figcaption>
+            <img
+              class="profile-img"
+              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+              alt="profile picture"
+            />
+            <p><strong>Micheal Gough</strong><br />CEO at Google</p>
+          </figcaption>
+        </div>
+
+        <div class="testimonial">
+          <blockquote>
+            "This is by far the best UI kit I have ever used. The design is
+            modern, clean, and easy to integrate with my projects. Highly
+            recommended!"
+          </blockquote>
+          <figcaption>
+            <img
+              class="profile-img"
+              src="https://randomuser.me/api/portraits/men/45.jpg"
+              alt="profile picture"
+            />
+            <p><strong>John Doe</strong><br />Product Manager</p>
+          </figcaption>
+        </div>
+
+        <div class="testimonial">
+          <blockquote>
+            "A fantastic resource for developers! The components are well
+            designed, and the customization options are endless."
+          </blockquote>
+          <figcaption>
+            <img
+              class="profile-img"
+              src="https://randomuser.me/api/portraits/women/50.jpg"
+              alt="profile picture"
+            />
+            <p><strong>Jane Smith</strong><br />Lead Designer</p>
+          </figcaption>
+        </div>
+        <div class="review-buttons">
+          <button onclick="prevTestimonial()">Previous</button>
+          <button onclick="nextTestimonial()">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="afterReview-grid-container">
+      <img src="./assets/images/men_standing.JPG" alt="Image 1" />
+      <img src="./assets/images/IMG_4894.JPG" alt="Image 2" />
+      <img
+        src="./assets/images/hanna_professional.JPG"
+        alt="Image 3"
+        class="wide"
+      />
+    </div>
+
+    <div class="funFact-content">
+      <p class="mb-3 text-gray">
+        Track work across the enterprise through an open, collaborative
+        platform. Link issues across Jira and ingest data from other software
+        development tools, so your IT support and operations teams have richer
+        contextual information to rapidly respond to requests, incidents, and
+        changes.
+      </p>
+      <p class="text-gray">
+        Deliver great service experiences fast - without the complexity of
+        traditional ITSM solutions. Accelerate critical development work,
+        eliminate toil, and deploy changes with ease, with a complete audit
+        trail for every change.
+      </p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
